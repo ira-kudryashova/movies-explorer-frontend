@@ -1,3 +1,5 @@
+//почему так больно делать эту работу...
+
 import '../../index.css';
 import './App.css';
 // import Header from '../Header/Header.js';
