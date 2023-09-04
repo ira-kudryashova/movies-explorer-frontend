@@ -21,6 +21,7 @@ function SearchForm() {
         ></input>
         <label className='searchform__label link' htmlFor='searchform__checkbox'>Короткометражки</label>
       </div>
+      <div className='searchform__line'></div>
     </section>
   )
 }

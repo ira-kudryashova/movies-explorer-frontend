@@ -11,7 +11,7 @@ function Footer() {
         <p className='footer__copyright'>&copy; {new Date().getFullYear()}</p>
         <nav className='footer__links'>
           <a
-            href='https://practicum.yandex.ru'
+            href='https://practikum.yandex.ru'
             className='footer__link link'
             target='_blank'
             rel='noreferrer'

@@ -3,6 +3,7 @@
   width: 100%;
   margin: 70px auto 48px;
   padding: 0;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .searchform__input-container {
@@ -90,17 +91,24 @@
   background-image: url('../../../images/filter-off.svg');
 }
 
+.searchform__line {
+  max-width: 1140px;
+  margin: 40px auto 0;
+  border: 0.5px #424242 solid;
+}
+
 @media screen and (max-width: 768px) {
   .searchform {
     max-width: 708px;
   }
 
   .searchform__input-container {
-    margin: 0 10px 0 10px;
+    margin: 0;
   }
 
   .searchform__checkbox-conteiner {
-    padding-top: 15px;
+    padding-top: 44px;
+    letter-spacing: -0.7px;
   }
 }
 
@@ -115,13 +123,23 @@
   .searchform__input-container {
     max-width: 292px;
     margin: 0 auto;
+    margin-right: 15px;
   }
 
   .searchform__checkbox-conteiner {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    margin-top: 0;
   }
 
   .searchform__label {
     font-size: 11px;
+  }
+
+  .searchform__line {
+    max-width: 292px;
+  }
+
+  .searchform__btn {
+    width: 51px;
   }
 }

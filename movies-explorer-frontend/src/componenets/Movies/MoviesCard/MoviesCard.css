@@ -6,6 +6,7 @@
   flex-direction: column;
   overflow:visible;
   background-color: #222;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .card__link {
@@ -143,8 +144,16 @@
     height: 100%;
   }
 
+  .card__name {
+    margin-left: 0;
+  }
+
+  .card__duration {
+    margin-right: 0;
+  }
+
   .card__info {
-    margin: 0px 0 20px 0;
+    margin: 7px 0 20px 0;
   }
 }
 

@@ -31,7 +31,7 @@ function MoviesCard() {
       <a href='https://www.youtube.com/watch?v=_zIK7IloRM4' className='card__link link' target='_blank' rel='noreferrer'>
         <img className='card__pic' src={MoviePoster} alt='Постер к фильму' />
       </a>
-      {location.pathname === '/movies' && (<button className='card__button_save' htmlFor='card__button_saved' type='button'></button>)}
+      {location.pathname === '/movies' && (<button className='card__button_save' /**htmlFor='card__button_saved'*/ type='button'></button>)}
       {location.pathname === '/saved-movies' && (<button className='card__button_remove' type='button'></button>)}
       
       {/* {<button className={`${ location.pathname === '/saved-movies' ? "card__button__saved" : "card__button_remove"}`}></button>} */}

@@ -16,7 +16,7 @@ function Register() {
             type='text'
             className='form__input-data'
             defaultValue='Виталий'
-            placeholder='Виталий'
+            placeholder='Введите имя'
             minLength={2}
             maxLength={12}
             required
@@ -30,7 +30,7 @@ function Register() {
             type='email'
             className='form__input-data'
             defaultValue='pochta@yandex.ru'
-            placeholder='email@email.ru'
+            placeholder='Введите адрес электронной почты'
             required
           />
           <p className='form__error'>Что-то пошло не так...</p>
@@ -44,7 +44,7 @@ function Register() {
             minLength={3}
             maxLength={25}
             defaultValue='••••••••••••••'
-            placeholder='••••••••••••••'
+            placeholder='Введите пароль'
             required
           />
           <p className='form__error form__error-text'>Что-то пошло не так...</p>

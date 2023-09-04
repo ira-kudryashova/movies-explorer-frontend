@@ -6,19 +6,19 @@ function Portfolio() {
     <section className='portfolio'>
       <h4 className='portfolio__title'>Портфолио</h4>
       <ul className='portfolio__links'>
-        <li className='portfolio__links-item'>
+        <li className='portfolio__link-item'>
           <a href='https://github.com/ira-kudryashova/how-to-learn' className='portfolio__link link' target='_blank' rel="noreferrer">
             <p className='portfolio__subtitle'>Статичный сайт</p>
             <p className='portfolio__arrow'>&#8599;</p>
           </a>
         </li>
-        <li className='portfolio__links-item'>
+        <li className='portfolio__link-item'>
           <a href='https://github.com/ira-kudryashova/russian-travel' className='portfolio__link link' target='_blank' rel="noreferrer">
             <p className='portfolio__subtitle'>Адаптивный сайт</p>
             <p className='portfolio__arrow'>&#8599;</p>
           </a>
         </li>
-        <li className='portfolio__links-item'>
+        <li className='portfolio__link-item'>
           <a href='https://github.com/ira-kudryashova/react-mesto-api-full-gha' className='portfolio__link link' target='_blank' rel="noreferrer">
             <p className='portfolio__subtitle'>Одностраничное приложение</p>
             <p className='portfolio__arrow'>&#8599;</p>

@@ -5,9 +5,10 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 .movies__add-cards {
-  margin: 50px 0 79px 0;
+  margin: 58px 0 79px 0;
   padding: 0;
   width: 320px;
   height: 36px;

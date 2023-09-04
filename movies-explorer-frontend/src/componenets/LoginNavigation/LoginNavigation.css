@@ -3,6 +3,8 @@
   margin: 0;
   max-width: 183px;
   width: 100%;
+  font-family: 'Inter', 'Arial', sans-serif;
+  
 }
 
 .loginnav__list {
@@ -34,4 +36,20 @@
   font-weight: 500;
   background: #3ddc84;
   color: #000;
+}
+
+@media screen and (max-width: 320px) {
+  .loginnav {
+    max-width: 159px;
+  }
+  
+  .loginnav__button {
+    padding: 6px 12px;
+    width: 54px;
+    border-radius: 3px;
+  }
+
+  .loginnav__link {
+    margin-right: 14px;
+  }
 }

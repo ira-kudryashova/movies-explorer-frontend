@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+  font-family: 'Inter', 'Arial', sans-serif;
 }
 
 .notfound-error__title {
@@ -31,6 +32,11 @@
   text-decoration: none;
   letter-spacing: 0;
   text-align: center;
+}
+
+.notfound-error__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 850px) {
