@@ -4,6 +4,7 @@ function Login() {
   return (
     <main className='login'>
       <Form
+        className='form'
         header='Рады видеть!'
         submit='Войти'
         text='Ещё не зарегистрированы?'

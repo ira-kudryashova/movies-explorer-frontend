@@ -4,6 +4,7 @@ function Register() {
   return (
     <main className='register'>
       <Form
+        className='form'
         header='Добро пожаловать!'
         submit='Зарегистрироваться'
         text='Уже зарегистрированы?'

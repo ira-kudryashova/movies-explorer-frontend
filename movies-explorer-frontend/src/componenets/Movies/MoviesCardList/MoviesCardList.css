@@ -1,5 +1,5 @@
 .moviescardlist {
-  margin: 30px 0 10px 0;
+  margin: 0 0 10px 0;
   padding: 0;
   max-width: 1280px;
   width: 100%;
@@ -10,10 +10,11 @@
 
 .moviescardlist__list {
   margin: 0 auto;
+  margin-top: 30px;
   max-width: 1140px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   gap: 30px;
   row-gap: 56px;
   flex-wrap: wrap;
@@ -34,6 +35,10 @@
 }
 
 @media screen and (max-width: 320px) {
+  .moviescardlist {
+    margin: 15px 0 10px 0
+  }
+
   .moviescardlist__list {
     margin-top: 18px;
     max-width: 320px;

@@ -160,6 +160,7 @@
 @media screen and (max-width: 320px) {
   .card {
     max-width: 300px;
+    margin: 0 auto;
   }
 
   .card__info {
