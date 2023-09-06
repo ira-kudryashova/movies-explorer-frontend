@@ -24,6 +24,10 @@
   cursor: pointer;
 }
 
+.movies__add-cards_inactive {
+  display: none;
+}
+
 @media screen and (max-width: 768px) {
   .movies__add-cards {
     margin-top: 92px;
@@ -33,5 +37,7 @@
 @media screen and (max-width: 320px) {
   .movies__add-cards {
     max-width: 240px;
+    margin-top: 66px;
+    margin-bottom: 80px; /**проверить*/
   }
 }

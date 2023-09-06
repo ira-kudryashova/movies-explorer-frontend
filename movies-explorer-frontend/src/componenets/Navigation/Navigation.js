@@ -31,7 +31,7 @@ function Navigation() {
             </nav>
           </div>
 
-          <NavLink to='/profile' className='navigation__link navigation__link_profile navigation__link_active'>Аккаунт</NavLink>
+          <NavLink to='/profile' className='navigation__link navigation__link_profile'>Аккаунт</NavLink>
         </div>
       </div>
     </div>

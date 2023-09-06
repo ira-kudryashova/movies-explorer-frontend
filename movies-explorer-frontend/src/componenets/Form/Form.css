@@ -164,14 +164,16 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 320px) {  
   .form__container {
     max-width: 260px;
   }
 
   .form__link {
-    margin: 0 auto;
-    padding-right: 39px;
+    /* margin: 0 auto;
+    padding-left: 7px;
+    padding-right: 38px; */
+    margin-right: 44px;
   }
 
   .form__name {
@@ -180,7 +182,9 @@
 
   .form__footer {
     max-width: 300px;
-    text-align: start;
+    display: flex;
+    justify-content: center;
+    /* text-align: start; */
   }
 }
 

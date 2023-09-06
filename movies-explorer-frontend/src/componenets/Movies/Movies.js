@@ -19,7 +19,7 @@ function Movies(props) {
         <SearchForm />
         <MoviesCardList cards={props.cards} />
         {/* <MoviesCardList cards={moviesArray} /> */}
-        <button className='movies__add-cards button' type='button'>
+        <button className='movies__add-cards movies__add-cards_inactive button' type='button'>
           Ещё
         </button>
       </main>
